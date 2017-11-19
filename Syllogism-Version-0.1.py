@@ -6,9 +6,9 @@ ps2 = int(raw_input("What is the predicate in S2 (1, 2, 3, 4, 5...) >>> "))
 ss1 = ss1 - 1
 ps2 = ps2 - 1
 vs2 = vs2 - 1
-sentece1 = s1.split(" ")
+sentence1 = s1.split(" ")
 sentence2 = s2.split(" ")
-print sentece1[ss1]
+print sentence1[ss1]
 print sentence2[vs2]
 print sentence2[ps2]
 
