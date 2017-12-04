@@ -38,9 +38,9 @@ S1 = raw_input("S1 >>> ")
 S2 = raw_input("S2 >>> ")
 Qr = ["All", "No", "Some"]
 St = raw_input("What are the Subjects in S1? (DON'T include PNs!) >>> ")
-Sv = raw_input("Does it need a special Verb? (Y/N) >>> ")
+Sv = raw_input("Are there Verbs in S2? (Y/N) >>> ")
 if Sv == "Y":
-    Vi = raw_input("What is it? >>> ")
+    Vi = raw_input("What are they? >>> ")
 elif Sv == "N":
     print("Ok")
 else:
