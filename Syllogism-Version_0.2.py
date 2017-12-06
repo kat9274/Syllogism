@@ -10,13 +10,9 @@ if Te == "O":
         Ann = 3
         Qrr = 2
     elif Xa == "Help":
-        print("Type 1 has 'is not' while type 2 has 'are not'. Now restart the program!")
-        time.sleep(8)
-        exit()
-    else:
-        print("Your input is incorrect. Reopen the program to retry.")
-        time.sleep(5)
-        exit()
+        print("Type 1 has 'is not' while type 2 has 'are not'. \n You will use type 1.")
+        Ann = 3
+        Qrr = 2
 elif Te == "I":
     Ann = 2
     Qrr = 2
@@ -28,12 +24,13 @@ elif Te == "A":
     Qrr = 0
 elif Te == "Help":
     print("A is in the format of (all a are b)\nWhile E is in the format of (no a are b)\nAnd I is in the format of (some a are b)\nO is in the format of (some a are not b/some a is not b). Now restart the program!")
-    time.sleep(8)
-    exit()
+    print("You will use A this time.")
+    Ann = 0
+    Qrr = 0
 else:
-    print("Your input is incorrect. Reopen the program to retry.")
-    time.sleep(5)
-    exit()
+    print("Your input is incorrect. You will use A type now.")
+    Ann = 0
+    Qrr = 0
 S1 = raw_input("S1 >>> ")
 S2 = raw_input("S2 >>> ")
 Qr = ["All", "No", "Some"]
