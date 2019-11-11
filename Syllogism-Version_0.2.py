@@ -1,10 +1,10 @@
 import time
 print("Type 'Help' at any time! (without quotes)")
 Te = raw_input("What is your type? (A, E, I, or O)")
-if Te == "O": 
+if Te == "O":
     Xa = raw_input("Is Your Input Type 1 or 2? >>> ")
-    if Xa == "2":    
-        Ann = 1 
+    if Xa == "2":
+        Ann = 1
         Qrr = 2
     elif Xa == "1":
         Ann = 3
