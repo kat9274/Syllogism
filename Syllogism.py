@@ -1,15 +1,16 @@
 FillerList1 = ["all", "no", "some"]
 FillerList2 = ["are", "are not", "have", "have no", "is", "is not"]
 
-def FindType(In1, In2, S1, S2): #Both have to be split!
+
+def FindType(In1, In2, S1, S2):  # Both have to be split!
     if In1[S1] == "all":
         if In2[S2] == "some" or In2[S2] == "no":
             Word_List[0] = 2
         else:
-            Word_List[0] = 0 #CAN BE 2 as well
+            Word_List[0] = 0  # CAN BE 2 as well
 
     elif In1[S1] == "no":
-        Word_List[0] = 2 #Can be 1 as well
+        Word_List[0] = 2  # Can be 1 as well
 
     elif In1[S1] == "some":
         Word_List[0] = 2
