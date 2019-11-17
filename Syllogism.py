@@ -1,7 +1,6 @@
 FillerList1 = ["all", "no", "some"]
 FillerList2 = ["are", "are not", "have", "have no", "is", "is not"]
 
-
 def FindType(In1, In2, S1, S2):  # Both have to be split!
     if In1[S1] == "all":
         if In2[S2] == "some" or In2[S2] == "no":
